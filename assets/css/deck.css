@@ -198,8 +198,8 @@ p { font-size: 17px; line-height: 1.5; color: var(--ink2); }
 .capa .meta { display: flex; gap: 46px; margin-top: auto; }
 .capa .meta div { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: #8d8d8d; }
 .capa .meta b { display: block; margin-top: 6px; font: 800 24px var(--f-d); letter-spacing: 0; text-transform: none; color: #fff; }
-.capa .foto { position: absolute; right: 0; top: 0; bottom: 0; width: 52%; background: linear-gradient(90deg, var(--ink) 0, rgba(17,17,17,.0) 34%), url('../img/fotos/lifestyle1.webp') center/cover; }
-.capa .foto::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(17,17,17,.85), transparent 40%); }
+.capa .foto { position: absolute; right: 0; top: 0; bottom: 0; width: 56%; background: linear-gradient(90deg, var(--ink) 0, rgba(17,17,17,.55) 18%, rgba(17,17,17,0) 42%), url('../img/fotos/capa-loja.webp') right center/cover; }
+.capa .foto::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(17,17,17,.55), transparent 22%); }
 .capa .packs { position: absolute; right: 110px; bottom: 70px; z-index: 3; }
 .capa .packs img { width: 150px; margin-right: -34px; filter: drop-shadow(0 26px 22px rgba(0,0,0,.55)); }
 .capa .cadeia { font: 700 13px var(--f-t); letter-spacing: .22em; color: #8d8d8d; margin-top: 26px; }
@@ -272,3 +272,4 @@ html.m .nota5 i { width: 13px; }
 html.m .lista li { grid-template-columns: 34px minmax(0, 1fr); font-size: 16px; }
 html.m .card { padding: 18px; }
 html.m .slide { overflow-x: clip; }
+.is-dark #trilha button:not(.on) { background: rgba(17,17,17,.6); backdrop-filter: blur(4px); }

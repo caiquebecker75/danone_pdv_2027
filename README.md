@@ -31,7 +31,8 @@ QA: `?static` (sem animação), `?desktop` (força o palco no celular).
 - `assets/css/deck.css`: palco de 1600 × 900 escalado à janela, componentes (cards, tabelas, fluxos, selos) e versão celular (`html.m`).
 - `assets/js/deck.js`: navegação, índice, trilha de capítulos, abas (`data-abas`) e notas de 1 a 5 (`data-nota`).
 - `assets/img/packs/`: embalagens YoPRO UHT do site oficial yopro.com.br (recortadas, em webp).
-- `assets/img/fotos/`: imagens de campanha do site oficial YoPRO.
+- `assets/img/fotos/capa-loja.webp`: capa. Cena de supermercado gerada no ChatGPT, com expositor preto vazio e sem marcas; as embalagens YoPRO reais e o logo foram aplicados depois sobre as prateleiras (6 por fileira, organizadas por sabor), com a luz ajustada à da cena.
+- `assets/img/fotos/ooh.webp`: campanha "Fortalece e recupera seus músculos", do site oficial YoPRO.
 - `assets/img/logos/`: YoPRO (versões branca e preta) e 75LAB.
 
 HTML, CSS e JS puros, sem build e sem dependências (só fontes do Google: Archivo e Figtree).
